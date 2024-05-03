@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="valverde.ricardo.ui.GPais">
+    <children>
+        <Label fx:id="RegistrodePaises" layoutX="336.0" layoutY="31.0" text="Registro de Paises">
+            <font>
+                <Font name="Segoe UI" size="36.0" />
+            </font>
+        </Label>
+        <VBox layoutY="-1.0" prefHeight="678.0" prefWidth="222.0" spacing="10.0" style="-fx-background-color: #1a96db;">
+            <children>
+                <Pane prefHeight="87.0" prefWidth="222.0" />
+                <Button fx:id="btnRegistroAe" mnemonicParsing="false" onAction="#btnRegistroAe" prefHeight="44.0" prefWidth="224.0" style="-fx-background-color: #0488d0;" text="Registro de Aeropuertos" textFill="#eeeeee">
+                    <font>
+                        <Font name="Segoe UI" size="18.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            <Button fx:id="btnRegistrolineas" mnemonicParsing="false" onAction="#btnRegistroLineas" prefHeight="44.0" prefWidth="222.0" style="-fx-background-color: #0488d0;" text="Registro de Lineasaereas" textFill="#eeeeee">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="registroSalas" mnemonicParsing="false" onAction="#registroSalas" prefHeight="44.0" prefWidth="222.0" style="-fx-background-color: #0488d0;" text="Registro de Salas" textFill="#eeeeee">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="registrodeaeronaves" mnemonicParsing="false" onAction="#registrodeaeronaves" prefHeight="44.0" prefWidth="222.0" style="-fx-background-color: #0488d0;" text="Registro de aeronaves" textFill="#eeeeee">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="registroTrupulacion" mnemonicParsing="false" onAction="#registroTrupulacion" prefHeight="44.0" prefWidth="222.0" style="-fx-background-color: #0488d0;" text="Registro de Tripulacion" textFill="#eeeeee">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="registroUsuario" mnemonicParsing="false" onAction="#registroUsuario" prefHeight="44.0" prefWidth="222.0" style="-fx-background-color: #0488d0;" text="Registro de Usuarios" textFill="#eeeeee">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+                <Button fx:id="btnSalir" mnemonicParsing="false" onAction="#salir" prefHeight="44.0" prefWidth="224.0" style="-fx-background-color: #1a96db;" text="Salir" textFill="#eeeeee">
+                    <font>
+                        <Font name="Segoe UI" size="18.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            </children>
+        </VBox>
+        <TableView fx:id="tblPaises" layoutX="268.0" layoutY="274.0" onMouseClicked="#cargarListapaises" prefHeight="251.0" prefWidth="452.0">
+            <columns>
+                <TableColumn fx:id="Tpais" prefWidth="150.0" text="Pais" />
+                <TableColumn fx:id="Tabreviatura" prefWidth="150.0" text="Abreviatura" />
+            <TableColumn fx:id="TID" prefWidth="150.0" text="ID" />
+            </columns>
+        </TableView>
+        <Button fx:id="btnRegistrar" layoutX="775.0" layoutY="288.0" mnemonicParsing="false" onAction="#registrarPais" text="Registrar">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnModificar" layoutX="773.0" layoutY="332.0" mnemonicParsing="false" onAction="#modificarPais" text="Modificar">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnEliminar" layoutX="773.0" layoutY="385.0" mnemonicParsing="false" onAction="#EliminarPais" prefHeight="30.0" prefWidth="77.0" text="Eliminar">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <TextField fx:id="txtPais" layoutX="450.0" layoutY="144.0" promptText="Pais">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="txtAbreviatura" layoutX="653.0" layoutY="144.0" promptText="Abreviatura">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="450.0" layoutY="119.0" text="Pais">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="653.0" layoutY="119.0" text="Abreviatura">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+      <Label layoutX="268.0" layoutY="119.0" text="ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtID" layoutX="260.0" layoutY="144.0" promptText="ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+    </children>
+</AnchorPane>

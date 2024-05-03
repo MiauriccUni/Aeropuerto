@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="valverde.ricardo.ui.Gusuario">
+    <children>
+        <Label fx:id="lblTitulo" layoutX="493.0" layoutY="24.0" text="Bienvenido">
+            <font>
+                <Font name="Segoe UI" size="36.0" />
+            </font>
+        </Label>
+        <VBox layoutY="-1.0" prefHeight="678.0" prefWidth="222.0" spacing="10.0" style="-fx-background-color: #1a96db;">
+            <children>
+                <Pane prefHeight="87.0" prefWidth="222.0" />
+                <Button fx:id="btnSalir" mnemonicParsing="false" onAction="#salir" prefHeight="44.0" prefWidth="224.0" style="-fx-background-color: #1a96db;" text="Salir" textFill="#eeeeee">
+                    <font>
+                        <Font name="Segoe UI" size="18.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            </children>
+        </VBox>
+        <TableView fx:id="tblPersonas" layoutX="222.0" layoutY="425.0" onMouseClicked="#cargarUsuario" prefHeight="251.0" prefWidth="708.0">
+            <columns>
+                <TableColumn fx:id="colUno" prefWidth="150.0" text="Nombre" />
+                <TableColumn fx:id="colDos" prefWidth="150.0" text="Cedula" />
+                <TableColumn fx:id="colTres" prefWidth="217.0" text="Correo" />
+                <TableColumn fx:id="colCuatro" prefWidth="189.0" text="Contraseña" />
+            </columns>
+        </TableView>
+        <Button fx:id="btnRegistrar" layoutX="711.0" layoutY="348.0" mnemonicParsing="false" onAction="#registrarUsuario" text="Registrar">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnModificar" layoutX="799.0" layoutY="348.0" mnemonicParsing="false" onAction="#modificarUsuario" text="Modificar">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnEliminar" layoutX="885.0" layoutY="348.0" mnemonicParsing="false" onAction="#eliminarUsuario" text="Eliminar">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <TextField fx:id="txtCedula" layoutX="308.0" layoutY="144.0" promptText="Cedula">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="txtNombre" layoutX="523.0" layoutY="144.0" promptText="Nombre">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="txtPassword" layoutX="523.0" layoutY="253.0" promptText="Contraseña">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="txtCorreo" layoutX="308.0" layoutY="253.0" promptText="Correo">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="308.0" layoutY="119.0" text="Cedula:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="523.0" layoutY="119.0" text="Nombre:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="308.0" layoutY="223.0" text="Correo:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="523.0" layoutY="233.0" text="Contraseña:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8774dde2-6e96-49f5-8aad-700e38606ed0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Aeropuerto.dir/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Aeropuerto.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Aeropuerto.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Aeropuerto.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aeropuerto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Aeropuerto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/Administrador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/Aeronaves.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/Aeronaves.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/Aeropuertos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/Aeropuertos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/AeropuertosDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/AeropuertosDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/CL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/Configuracion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/Configuracion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/LineasAereas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/LineasAereas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/Pais.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/Pais.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/PaisDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/PaisDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/Salas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/Salas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/Tripulacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/bl/Tripulacion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/gestor/Gestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/gestor/Gestor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aeropuerto/valverde/ricardo/ui/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/valverde/ricardo/bl/LineasAereas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/valverde/ricardo/bl/LineasAereas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/valverde/ricardo/ui/CSalas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/valverde/ricardo/ui/CSalas.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GuajKUSrxUxu8ljhwCMMODVI3t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ricar/OneDrive/Escritorio/Caso de estudio 3/caso-de-estudio-3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="valverde.ricardo.ui.main" />
+      <module name="Aeropuerto" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.fxml,javafx.controls,javafx.graphics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8774dde2-6e96-49f5-8aad-700e38606ed0" name="Changes" comment="" />
+      <created>1667241059130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667241059130</updated>
+      <workItem from="1667241061056" duration="3000" />
+      <workItem from="1667266654042" duration="49000" />
+      <workItem from="1669854718889" duration="8535000" />
+      <workItem from="1670451504255" duration="942000" />
+      <workItem from="1670452614446" duration="30000" />
+      <workItem from="1670452653675" duration="148000" />
+      <workItem from="1670456946453" duration="34000" />
+      <workItem from="1670457364945" duration="304000" />
+      <workItem from="1670460043787" duration="931000" />
+      <workItem from="1670461069457" duration="6000" />
+      <workItem from="1670476949560" duration="124000" />
+      <workItem from="1670517408643" duration="1254000" />
+      <workItem from="1670534366236" duration="2537000" />
+      <workItem from="1689476811383" duration="372000" />
+      <workItem from="1689477196867" duration="28000" />
+      <workItem from="1689477479005" duration="9433000" />
+      <workItem from="1689564020700" duration="2080000" />
+      <workItem from="1689654149649" duration="88000" />
+      <workItem from="1689729802468" duration="37000" />
+      <workItem from="1689729851000" duration="3133000" />
+      <workItem from="1689814973671" duration="8554000" />
+      <workItem from="1689912001281" duration="7949000" />
+      <workItem from="1689992061694" duration="2404000" />
+      <workItem from="1689994480522" duration="2919000" />
+      <workItem from="1690070149362" duration="17000" />
+      <workItem from="1690070206794" duration="7935000" />
+      <workItem from="1690142571785" duration="3480000" />
+      <workItem from="1690171378294" duration="6911000" />
+      <workItem from="1690233873643" duration="610000" />
+      <workItem from="1690234498594" duration="2842000" />
+      <workItem from="1690427916965" duration="1095000" />
+      <workItem from="1690431062509" duration="426000" />
+      <workItem from="1693018041473" duration="19000" />
+      <workItem from="1693025991318" duration="3360000" />
+      <workItem from="1693104824051" duration="90000" />
+      <workItem from="1710381274711" duration="43000" />
+      <workItem from="1710988795605" duration="1110000" />
+      <workItem from="1711343831447" duration="803000" />
+      <workItem from="1712108432360" duration="703000" />
+      <workItem from="1712544623987" duration="626000" />
+      <workItem from="1714207446978" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

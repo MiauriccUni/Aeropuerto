@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="valverde.ricardo.ui.Glineas">
+    <children>
+        <Label fx:id="RegistrodePaises" layoutX="336.0" layoutY="31.0" text="Registro de Lineas Aereas">
+            <font>
+                <Font name="Segoe UI" size="36.0" />
+            </font>
+        </Label>
+        <VBox layoutY="-1.0" prefHeight="678.0" prefWidth="222.0" spacing="10.0" style="-fx-background-color: #1a96db;">
+            <children>
+                <Pane prefHeight="87.0" prefWidth="222.0" />
+                <Button fx:id="btnSalir" mnemonicParsing="false" onAction="#salir" prefHeight="44.0" prefWidth="224.0" style="-fx-background-color: #1a96db;" text="Salir" textFill="#eeeeee">
+                    <font>
+                        <Font name="Segoe UI" size="18.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            </children>
+        </VBox>
+        <TableView fx:id="tblaerolineas" layoutX="237.0" layoutY="385.0" onMouseClicked="#cargarListaAerolineas" prefHeight="251.0" prefWidth="591.0">
+            <columns>
+                <TableColumn fx:id="TCedulaJuri" prefWidth="150.0" text="Cedula Juridica" />
+                <TableColumn fx:id="TnombreAerolinea" prefWidth="150.0" text="Nombre Aerolinea" />
+                <TableColumn fx:id="Tdueno" prefWidth="150.0" text="Dueño de la aerolinea" />
+            <TableColumn fx:id="Tpais" prefWidth="140.0" text="Pais de la aerolinea" />
+            </columns>
+        </TableView>
+        <Button fx:id="btnRegistrar" layoutX="514.0" layoutY="251.0" mnemonicParsing="false" onAction="#registrar" text="Registrar">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnModificar" layoutX="615.0" layoutY="251.0" mnemonicParsing="false" onAction="#modificarAerolienea" text="Modificar">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="lbtnEliminar" layoutX="712.0" layoutY="251.0" mnemonicParsing="false" onAction="#EliminarAeroliena" prefHeight="30.0" prefWidth="77.0" text="Eliminar">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <TextField fx:id="txtNombreAerolinea" layoutX="450.0" layoutY="144.0" promptText="Aerolienea">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="txtNombreD" layoutX="653.0" layoutY="144.0" promptText="nombre">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="450.0" layoutY="119.0" text="Nombre Aerolinea">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="653.0" layoutY="119.0" text="Dueño de la aerolinea">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="268.0" layoutY="119.0" text="Cedula Juridica">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtCedulaJuri" layoutX="260.0" layoutY="144.0" promptText="Cedula">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+      <Label layoutX="275.0" layoutY="203.0" text="Pais de la aerolinea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="CPais" layoutX="272.0" layoutY="239.0" prefWidth="150.0" />
+    </children>
+</AnchorPane>
